@@ -1,0 +1,293 @@
+html{
+  font-size: 10px;
+}
+
+body{
+  font-size: 1.6rem;
+  margin: 0;
+  background-color: #000000;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width: 1000px;
+  margin: auto;
+}
+h2{
+  font-size: 2.3rem;
+}
+h3{
+  font-size: 1.6rem;
+}
+.header_logo{
+  padding: 0 3rem 0 3rem;
+}
+.header_auto{
+  p{
+    font-size: 1.2rem;
+    text-align: right;
+  }
+}
+.header_block{
+  display: flex;
+  align-items: center;
+}
+.header_text{
+  p{
+font-size: 3rem;
+  }
+}
+.header_navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  background-color: #ffffff;
+  position: relative;
+  overflow: visible;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown .dropbtn {
+
+}
+.car_dropdown{
+
+}
+
+.dropdown-content {
+
+}
+
+.dropdown-content a {
+
+}
+
+.dropdown-content a:hover {
+
+}
+
+.dropdown:hover .dropdown-content {
+
+}
+
+.dropdown-content_cars{
+
+}
+
+
+
+.dropdown_car .dropbtn_car {
+
+}
+
+.dropdown-content_cart{
+
+}
+
+.dropdown-content_car {
+  display: none;
+  position: absolute;
+  background-color: rgba(51, 50, 50, 0.53);
+  z-index: 1;
+  padding: 2rem 0.5rem 20rem 1.0rem;
+  :hover{
+    display: flex;
+    position: inherit;
+  }
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.dropdown, .dropdown_car {
+  display: inline-block;
+  padding: 12px 16px;
+  color: black;
+}
+
+.dropdown-content, .dropdown-content_car {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+}
+
+.dropdown-content a {clear: both;color: black;}
+
+.dropdown-content {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover {
+}
+
+
+
+.dropdown-content_car a {
+  float: none;
+  color: #f7f4f4;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content_car a:hover {
+  color: rgb(100, 142, 255);
+}
+
+.dropdown_car:hover .dropdown-content_car {
+  display: block;
+  background-color: #131313;
+  position: relative;
+}
+
+
+.main_banner {
+  background: url(img/retail_landingpage_home-site.jpg.asset.AdyAuKANF_c9V0Ccpn4fqj-JrSyfPn-9CBHWNizoGog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  text-align: left;
+  padding: 2rem 0 10rem 4rem;
+  p {
+    font-size: 3.6rem;
+max-width: 45rem;
+    line-height: 3.6rem;
+  }
+}
+
+.main_content_cards{
+  justify-content: space-between;
+  display: flex;
+  margin-top: 3rem;
+}
+.main_contact_social{
+  display: flex;
+  background-color: white;
+  ul{
+    display: flex;
+    padding: 0;
+  }
+li {
+  list-style: none;
+}
+  img{
+  max-width: 2rem;
+  padding: 0 0 0 2rem;
+}
+}
+.breadcrumb{
+  display: flex;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1.5rem;
+  color: rgb(100, 142, 255);
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer_card{
+  max-width: 21.8rem;
+}
+
+
+.footer_content{
+  display: flex;
+  justify-content: space-between;
+}
+.footer_information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_card{
+  h3{
+    font-size: 1.6rem;
+  }
+  p{
+    font-size: 1.3rem;
+  }
+}
+.footer_inform{
+  a{
+    color: white;
+    text-decoration: none;
+  }
+}
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+
+.modal-content {
+  position: relative;
+  background-color: #f1e9f1;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+}
+
+
+.close {
+  color: #0a0a0a;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #ffffff;
+  color: #070707;
+}
+
+.modal-body {padding: 2px 16px;}
+
+
